@@ -6,6 +6,8 @@ Goal-oriented shoppers desire to purchase what they want quickly and without dis
 
 Traditional market segmentation tools rely on demographic or geographic differences, rather than differentiating consumers on their transient behavioural shopping attitudes. This tool identifies and provides an actionable opportunity for retailers to better personalize their web interface based on the consumer's transient shopping behaviour and preferences. 
 
+I plan to employ mixture models and certain unsupervised learning methods to identify these segments.
+
 # Prerequisites and Data aquisition
 
 The raw data used for this analysis is semi-proprietary but a sample of the attributes available has been made available in the file Sample_data.ipynb. Please get in touch with me (lavisha.jindal@gmail.com) for directions on how to obtain the entire dataset.
