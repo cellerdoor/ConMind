@@ -4,7 +4,7 @@ ConMind is a market segmentation tool for retail businesses that uses machine le
 
 Goal-oriented shoppers desire to purchase what they want quickly and without distraction, whereas experiential customers tend to spend more time, browse a larger variety of items, and enjoy a foraging attitude to shopping. 
 
-Traditional market segmentation tools rely on demographic or geographic differences, rather than differentiating consumers on their traansient behavioural shopping attitudes. This tool identifies and provides an actionable opportunity for retailers to better personalize their web interface based on the consumer's transient shopping behaviour and preferences. 
+Traditional market segmentation tools rely on demographic or geographic differences, rather than differentiating consumers on their transient behavioural shopping attitudes. This tool identifies and provides an actionable opportunity for retailers to better personalize their web interface based on the consumer's transient shopping behaviour and preferences. 
 
 # Prerequisites and Data aquisition
 
