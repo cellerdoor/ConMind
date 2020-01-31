@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+h1, h2, h3, p {
+    color: grey
+}
+h4, h5, h6 {
+    color: black
+}
+.box {
+  position: relative;
+}
+.box__image {} .box__text {
+  position: absolute;
+  bottom: 0;
+}
