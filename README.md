@@ -31,21 +31,29 @@ By associating a unique integer value with every member of the ordered set of un
 
 
 ### Feature Engineering
-
-#### 1) Unique Nodes
+#### 1) Fractional Unique Nodes
+This feature calculates the total number of unique nodes visited divided by the total number of nodes visited during a single session. It is bounded by (0,1] and clickstreams analogous to 'experiential' will have values close to 1 while clickstreams belonging to 'goal oriented' nature would be closer to 0. A lower value would imply a higher level of 'goal oriented'.
 
 #### 2) Revisit Frequency
+This feature calculates the total number of revisits to a previously visites unique node during a single session. It is unbounded and clickstreams analogous to 'experiential' will have lower values while clickstreams belonging to 'goal oriented' nature would have high number of revisits. 
+
 
 #### 3) Graph Diameter
+This feature calculates the longest path between two unique nodes in the clickstream. It is unbounded and is used to further segregate 'goal oriented' (which would have a lower diameters) and 'experiential' users (which would have higher diameters). This feature also segregates clickstreams that show mixed behaviours such that more 'goal oriented' clickstreams can be differentiated from less 'goal oriented' clickstreams.
 
 #### 4) Revisit Duration
+This feature calculates the time spent on the same product (only) during a revisit. Using this feature is based on the assumption that customers spend a longer time browing and reading the description of products when they have a specific goal in mind and that product aligns with this goal. 'Experiential' customers spend less time in comparison on a revisited product. 
 
+We have chosed our features based on a qualitative understanding of what behaviours are likely associated with 'Goal oriented' and 'Experiential' customers. The caveat is that there is no 'true' underlying latent state that is associated with shopping patterns and the construction of this binary is based upon a heuristic approach to consumer behaviours. 
 
+Details about feature engineering can be found in `notebooks/Feature_Engineering.ipynb` .
 
-Details about feature engineering can be found in `notebooks/week3_Feature_Engineering.ipynb` .
+### Model Results
+![results](https://github.com/cellerdoor/ConMind/blob/master/Files/results.jpg)
 
-### Model Training and Validation
+### Cluster Stability 
 
+### Visual Validation
 
 
 ## Limits and Future Directions
