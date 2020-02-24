@@ -49,7 +49,7 @@ We have chosed our features based on a qualitative understanding of what behavio
 Details about feature engineering can be found in `notebooks/Feature_Engineering.ipynb` .
 
 ### Model Results
-![results](https://github.com/cellerdoor/ConMind/blob/master/Files/results.jpg)
+![results](https://github.com/cellerdoor/ConMind/blob/master/Files/results.jpg =100x20)
 
 ### Cluster Stability 
 
