@@ -1,6 +1,6 @@
 # Cliquey
 
-ConMind is a customer segmentation tool for retail businesses that uses machine learning techniques on clickstream data to segregate online consumers as 'goal oriented' or 'experiential' shoppers. It can allow businesses to create a dynamic web layout tailored to increase shopper retention and reduce cart abandonment.  
+Cliquey is a customer segmentation tool for retail businesses that uses machine learning techniques on clickstream data to segregate online consumers as 'goal oriented' or 'experiential' shoppers. It can allow businesses to create a dynamic web layout tailored to increase shopper retention and reduce cart abandonment.  
 
 Goal-oriented shoppers desire to purchase what they want quickly and without distraction, whereas experiential customers tend to spend more time, browse a larger variety of items, and enjoy a foraging attitude to shopping. 
 
